@@ -1,9 +1,3 @@
-"""
-@author: LaiQiang
-@contact: vibiu@qq.com
-@time: 2018/5/16 11:10
-"""
-
 import pika
 
 from .context import RequestContext, AppContext

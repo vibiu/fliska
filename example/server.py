@@ -18,8 +18,6 @@ consumer = PikaConsumer(
 @consumer.channel('test')
 def test_callback(ch, method, property, body):
     print(request)
-    import pdb
-    pdb.set_trace()
     print('hello')
     return ch.basic_ack(delivery_tag=method.delivery_tag)
 
